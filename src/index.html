@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login form tailwind</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="font-mono">
+    <div class="flex h-screen w-full bg-green-100">
+      <img class="hidden lg:block w-1/2" src="./../hhhiasj.jpg" alt="img" />
+      <div class="flex flex-col justify-center items-center lg:w-1/2 w-full">
+        <div>
+          <div
+            class="text-center text-sm lg:text-8xl md:text-4xl font-bold lg:text-left"
+          >
+            <span class="text-green-600">&#9650;</span>
+            <span>FarmMan</span>
+          </div>
+        </div>
+        <div>
+          <div class="text-left text-3xl font-bold lg:text-left">
+            <h2>Hello,</h2>
+            <h2>Welcome Back</h2>
+          </div>
+        </div>
+        <!-- login form -->
+        <form action="" class="mt-8 w-[96%] lg:w-96">
+          <h4>Login to manage your account.</h4>
+          <input
+            class="border-none bg-green-100 w-full px-4 py-2"
+            type="email"
+            placeholder="Email"
+          />
+          <input
+            class="border-none bg-green-100 w-full px-4 py-2"
+            type="password"
+            placeholder="Password"
+          />
+          <div class="text-blue-600 cursor-pointer hover:text-blue-500">
+            Forgot your password ?
+          </div>
+          <button
+            class="bg-green-600 w-full text-white py-2 font-bold hover:bg-green-500 mt-3 rounded"
+          >
+            Login
+          </button>
+          <div class="text-center space-y-4 mt-4">
+            <span>
+              <div class="flex justify-center items-center gap-8 mt-2">
+                <i class="fa-brands fa-facebook text-2xl cursor-pointer"></i>
+                <i class="fa-brands fa-google text-2xl cursor-pointer"></i>
+                <i class="fa-brands fa-instagram text-2xl cursor-pointer"></i>
+              </div>
+            </span>
+            <div class="text-center mt-4 text-sm">
+              dont have a account ?
+              <span class="text-blue-600 cursor-pointer font-bold"
+                >Sign Up here</span
+              >
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
